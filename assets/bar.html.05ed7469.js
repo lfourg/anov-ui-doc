@@ -1,0 +1,1 @@
+const t={key:"v-0a41b2f7",path:"/components/chart/bar.html",title:"\u67F1\u72B6\u56FE",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1659079943e3,contributors:[{name:"lfourg",email:"limengnew@163.com",commits:2}]},filePathRelative:"components/chart/bar.md"};export{t as data};
