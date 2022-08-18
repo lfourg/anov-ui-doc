@@ -1996,7 +1996,7 @@ function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
   _push(serverRenderer.ssrRenderComponent(_component_BR, null, null, _parent));
   _push(`<em>true</em>\uFF1A\u7EC4\u4EF6\u9ED8\u8BA4\u6267\u884C <em>init</em> \u51FD\u6570\u3002`);
   _push(serverRenderer.ssrRenderComponent(_component_BR, null, null, _parent));
-  _push(`<em>false</em>\uFF1A\u7EC4\u4EF6\u9ED8\u8BA4\u4E0D\u6267\u884C <em>init</em> \u51FD\u6570\u3002\u4E00\u822C\u9700\u8981\u63A7\u5236\u6574\u4E2A\u5927\u5C4F\u52A8\u753B\u7EBF\uFF0C\u624D\u8003\u8651\u8BBE\u7F6E\u4E3A <em>false</em>\uFF0C\u7531\u7EC4\u4EF6\u4F7F\u7528\u4EBA\u5458\u624B\u52A8\u8C03\u7528 <em>init</em> \u51FD\u6570\u3002</li></ul><h4 id="esoption" tabindex="-1"><a class="header-anchor" href="#esoption" aria-hidden="true">#</a> esOption</h4><ul><li>\u7C7B\u578B\uFF1AObject</li><li>\u8BE6\u7EC6\uFF1A\u7EC4\u4EF6\u6269\u5C55\u914D\u7F6E\u4FE1\u606F\uFF0C\u53EF\u4EE5\u901A\u8FC7\u6B64\u5C5E\u6027\u4F20\u9012\u7B2C\u4E09\u65B9\u63D2\u4EF6\u652F\u6301option\u4E0D\u5305\u542B\u7684\u5C5E\u6027\u3002\u3010\u9884\u7559\u5C5E\u6027\u3011</li></ul><h3 id="methods" tabindex="-1"><a class="header-anchor" href="#methods" aria-hidden="true">#</a> Methods</h3><h4 id="init" tabindex="-1"><a class="header-anchor" href="#init" aria-hidden="true">#</a> init</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u7EC4\u4EF6\u521D\u59CB\u5316\u65B9\u6CD5\uFF0C\u7EC4\u4EF6\u5F00\u53D1\u65F6\u5728\u89C6\u56FE\u6587\u4EF6\u4E2D<strong>\u4E0D\u9700\u8981\u624B\u52A8\u8C03\u7528\u6B64\u65B9\u6CD5</strong>\u3002</li></ul><h4 id="reload" tabindex="-1"><a class="header-anchor" href="#reload" aria-hidden="true">#</a> reload</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u91CD\u65B0\u52A0\u8F7D\u7EC4\u4EF6\uFF0C\u4F1A\u6267\u884C\u52A8\u753B\u7EBF\u3002</li></ul><h4 id="refresh" tabindex="-1"><a class="header-anchor" href="#refresh" aria-hidden="true">#</a> refresh</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u5237\u65B0\u7EC4\u4EF6\uFF0C\u4FDD\u7559\u4E4B\u524D\u7684\u7F13\u5B58\u5185\u5BB9\uFF0C\u7EC4\u4EF6\u4E4B\u524D\u7684\u914D\u7F6E\u4E0D\u4F1A\u6E05\u9664\uFF0C\u6CA1\u52A0\u8F7D\u4E0A\u6765\u7684\u914D\u7F6E\u7EE7\u7EED\u52A0\u8F7D\u3002<br>\u4E00\u822C\u7528\u4E8E\u4FEE\u6539\u6570\u636E\uFF0C\u4E0D\u4F1A\u6267\u884C\u52A8\u753B\u7EBF</li></ul><h4 id="resize" tabindex="-1"><a class="header-anchor" href="#resize" aria-hidden="true">#</a> resize</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u5BB9\u5668\u5927\u5C0F\u6539\u53D8\uFF0C\u7EC4\u4EF6\u6267\u884C\u7684\u64CD\u4F5C\uFF0C\u4E00\u822C\u7528\u4E8E\u56FE\u8868\u7C7B\u7EC4\u4EF6\u3002</li></ul><h4 id="reverse" tabindex="-1"><a class="header-anchor" href="#reverse" aria-hidden="true">#</a> reverse</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u63A7\u5236\u52A8\u753B\u53CD\u5411\u64AD\u653E\u3002\u3010\u9884\u7559\u51FD\u6570\u3011</li></ul><h4 id="themechange" tabindex="-1"><a class="header-anchor" href="#themechange" aria-hidden="true">#</a> themeChange</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u4E3B\u9898\u6539\u53D8\uFF0C\u7EC4\u4EF6\u6267\u884C\u7684\u51FD\u6570\u3002</li></ul><h4 id="on" tabindex="-1"><a class="header-anchor" href="#on" aria-hidden="true">#</a> on</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u53C2\u6570\uFF1A<br> @param {String} eventName \u4E8B\u4EF6\u540D\u79F0<br> @param {*} params \u53C2\u6570</li><li>\u8BE6\u7EC6\uFF1A\u7ED1\u5B9A\u4E8B\u4EF6\u5904\u7406\u51FD\u6570\u3002</li></ul><h4 id="off" tabindex="-1"><a class="header-anchor" href="#off" aria-hidden="true">#</a> off</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u53C2\u6570\uFF1A<br> @param {String} eventName \u4E8B\u4EF6\u540D\u79F0</li><li>\u8BE6\u7EC6\uFF1A\u89E3\u7ED1\u4E8B\u4EF6\u5904\u7406\u51FD\u6570\u3002</li></ul><h4 id="setconfigoption" tabindex="-1"><a class="header-anchor" href="#setconfigoption" aria-hidden="true">#</a> setConfigOption</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u53C2\u6570\uFF1A<br> @param {String} key \u952E\u540D\u79F0\uFF0C\u591A\u7EA7\u5D4C\u5957\u5BF9\u8C61\u5C5E\u6027\u503C\u7684\u4FEE\u6539\uFF0C\u4F7F\u7528\u70B9\u62FC\u63A5\u7684\u5B57\u7B26\u4E32\uFF0Ceg\uFF1A<em>obj1.obj2.name</em><br> @param {*} value \u503C</li><li>\u8BE6\u7EC6\uFF1A\u7EC4\u4EF6\u89C6\u56FE\u6587\u4EF6\u4E2D\u4FEE\u6539\u914D\u7F6E\u4FE1\u606F(<em>option</em>)\uFF0C\u7EC4\u4EF6\u4E2D\u4E00\u822C\u90FD\u4E0D\u9700\u8981\u4FEE\u6539\u914D\u7F6E\u4FE1\u606F\u3002\u3010\u9884\u7559\u51FD\u6570\u3011</li></ul><h4 id="destroy" tabindex="-1"><a class="header-anchor" href="#destroy" aria-hidden="true">#</a> destroy</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u7EC4\u4EF6\u9500\u6BC1\u4E4B\u524D\u8C03\u7528\u3002\uFF08\u4E5F\u53EF\u4EE5\u4F7F\u7528 VUE \u672C\u8EAB\u7684\u94A9\u5B50\u51FD\u6570\uFF09</li></ul><!--]-->`);
+  _push(`<em>false</em>\uFF1A\u7EC4\u4EF6\u9ED8\u8BA4\u4E0D\u6267\u884C <em>init</em> \u51FD\u6570\u3002\u4E00\u822C\u9700\u8981\u63A7\u5236\u6574\u4E2A\u5927\u5C4F\u52A8\u753B\u7EBF\uFF0C\u624D\u8003\u8651\u8BBE\u7F6E\u4E3A <em>false</em>\uFF0C\u7531\u7EC4\u4EF6\u4F7F\u7528\u4EBA\u5458\u624B\u52A8\u8C03\u7528 <em>init</em> \u51FD\u6570\u3002</li></ul><h4 id="esoption" tabindex="-1"><a class="header-anchor" href="#esoption" aria-hidden="true">#</a> esOption</h4><ul><li>\u7C7B\u578B\uFF1AObject</li><li>\u8BE6\u7EC6\uFF1A\u7EC4\u4EF6\u6269\u5C55\u914D\u7F6E\u4FE1\u606F\uFF0C\u53EF\u4EE5\u901A\u8FC7\u6B64\u5C5E\u6027\u4F20\u9012\u7B2C\u4E09\u65B9\u63D2\u4EF6\u652F\u6301option\u4E0D\u5305\u542B\u7684\u5C5E\u6027\u3002\u3010\u9884\u7559\u5C5E\u6027\u3011</li></ul><h3 id="methods" tabindex="-1"><a class="header-anchor" href="#methods" aria-hidden="true">#</a> Methods</h3><h4 id="init" tabindex="-1"><a class="header-anchor" href="#init" aria-hidden="true">#</a> init</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u7EC4\u4EF6\u521D\u59CB\u5316\u65B9\u6CD5\uFF0C\u7EC4\u4EF6\u5F00\u53D1\u65F6\u5728\u89C6\u56FE\u6587\u4EF6\u4E2D<strong>\u4E0D\u9700\u8981\u624B\u52A8\u8C03\u7528\u6B64\u65B9\u6CD5</strong>\u3002</li></ul><h4 id="reload" tabindex="-1"><a class="header-anchor" href="#reload" aria-hidden="true">#</a> reload</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u91CD\u65B0\u52A0\u8F7D\u7EC4\u4EF6\uFF0C\u4F1A\u6267\u884C\u52A8\u753B\u7EBF\u3002</li></ul><h4 id="refresh" tabindex="-1"><a class="header-anchor" href="#refresh" aria-hidden="true">#</a> refresh</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u5237\u65B0\u7EC4\u4EF6\uFF0C\u4FDD\u7559\u4E4B\u524D\u7684\u7F13\u5B58\u5185\u5BB9\uFF0C\u7EC4\u4EF6\u4E4B\u524D\u7684\u914D\u7F6E\u4E0D\u4F1A\u6E05\u9664\uFF0C\u6CA1\u52A0\u8F7D\u4E0A\u6765\u7684\u914D\u7F6E\u7EE7\u7EED\u52A0\u8F7D\u3002<br>\u4E00\u822C\u7528\u4E8E\u4FEE\u6539\u6570\u636E\uFF0C\u4E0D\u4F1A\u6267\u884C\u52A8\u753B\u7EBF</li></ul><h4 id="resize" tabindex="-1"><a class="header-anchor" href="#resize" aria-hidden="true">#</a> resize</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u5BB9\u5668\u5927\u5C0F\u6539\u53D8\uFF0C\u7EC4\u4EF6\u6267\u884C\u7684\u64CD\u4F5C\uFF0C\u4E00\u822C\u7528\u4E8E\u56FE\u8868\u7C7B\u7EC4\u4EF6\u3002</li></ul><h4 id="reverse" tabindex="-1"><a class="header-anchor" href="#reverse" aria-hidden="true">#</a> reverse</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u63A7\u5236\u52A8\u753B\u53CD\u5411\u64AD\u653E\u3002\u3010\u9884\u7559\u51FD\u6570\u3011</li></ul><h4 id="themechange" tabindex="-1"><a class="header-anchor" href="#themechange" aria-hidden="true">#</a> themeChange</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u4E3B\u9898\u6539\u53D8\uFF0C\u7EC4\u4EF6\u6267\u884C\u7684\u51FD\u6570\u3002</li></ul><h4 id="dispatch" tabindex="-1"><a class="header-anchor" href="#dispatch" aria-hidden="true">#</a> dispatch</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u53C2\u6570\uFF1A<br> @param {String} eventName \u4E8B\u4EF6\u540D\u79F0<br> @param {*} params \u53C2\u6570</li><li>\u8BE6\u7EC6\uFF1A\u89E6\u53D1\u7EC4\u4EF6\u4EA4\u4E92\u884C\u4E3A\uFF0C\u901A\u8FC7\u6B64\u51FD\u6570\u7EDF\u4E00\u6D3E\u53D1\u7EC4\u4EF6\u4EA4\u4E92\u884C\u4E3A\u3002</li></ul><h4 id="off" tabindex="-1"><a class="header-anchor" href="#off" aria-hidden="true">#</a> off</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u53C2\u6570\uFF1A<br> @param {String} eventName \u4E8B\u4EF6\u540D\u79F0</li><li>\u8BE6\u7EC6\uFF1A\u89E3\u7ED1\u7EC4\u4EF6\u4EA4\u4E92\u884C\u4E3A\u3002</li></ul><h4 id="setconfigoption" tabindex="-1"><a class="header-anchor" href="#setconfigoption" aria-hidden="true">#</a> setConfigOption</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u53C2\u6570\uFF1A<br> @param {String} key \u952E\u540D\u79F0\uFF0C\u591A\u7EA7\u5D4C\u5957\u5BF9\u8C61\u5C5E\u6027\u503C\u7684\u4FEE\u6539\uFF0C\u4F7F\u7528\u70B9\u62FC\u63A5\u7684\u5B57\u7B26\u4E32\uFF0Ceg\uFF1A<em>obj1.obj2.name</em><br> @param {*} value \u503C</li><li>\u8BE6\u7EC6\uFF1A\u7EC4\u4EF6\u89C6\u56FE\u6587\u4EF6\u4E2D\u4FEE\u6539\u914D\u7F6E\u4FE1\u606F(<em>option</em>)\uFF0C\u7EC4\u4EF6\u4E2D\u4E00\u822C\u90FD\u4E0D\u9700\u8981\u4FEE\u6539\u914D\u7F6E\u4FE1\u606F\u3002\u3010\u9884\u7559\u51FD\u6570\u3011</li></ul><h4 id="destroy" tabindex="-1"><a class="header-anchor" href="#destroy" aria-hidden="true">#</a> destroy</h4><ul><li>\u7C7B\u578B\uFF1AFunction</li><li>\u8BE6\u7EC6\uFF1A\u7EC4\u4EF6\u9500\u6BC1\u4E4B\u524D\u8C03\u7528\u3002\uFF08\u4E5F\u53EF\u4EE5\u4F7F\u7528 VUE \u672C\u8EAB\u7684\u94A9\u5B50\u51FD\u6570\uFF09</li></ul><!--]-->`);
 }
 const _sfc_setup$S = _sfc_main$S.setup;
 _sfc_main$S.setup = (props, ctx) => {
@@ -2078,7 +2078,8 @@ const _sfc_main$Q = {
         description: "\u6570\u503C\u8F93\u5165\u6846\uFF0C\u53EF\u4EE5\u5B9A\u5236\u6B65\u957F\u3001\u6700\u5927\u503C\u548C\u6700\u5C0F\u503C\u3001\u540E\u7F00\u3002",
         files: [
           ...baseFiles,
-          ...numFiles
+          ...numFiles,
+          { name: "eventMode", disName: "\u6570\u636E\u66F4\u65B0\u6A21\u5F0F", type: "string", required: false, defaultValue: "change", remark: "\u53EF\u9009\uFF1A change | blur" }
         ],
         value: "",
         img: `${imgBaseUrl}number.png`,
@@ -2092,7 +2093,8 @@ const _sfc_main$Q = {
         description: "\u6587\u672C\u8F93\u5165\u6846\uFF0C\u652F\u6301\u5355\u884C\u3001\u591A\u884C\u6A21\u5F0F\u3002",
         files: [
           ...baseFiles,
-          { name: "rows", disName: "\u663E\u793A\u884C\u6570", type: "number", required: false, defaultValue: "1", remark: "" }
+          { name: "rows", disName: "\u663E\u793A\u884C\u6570", type: "number", required: false, defaultValue: "1", remark: "" },
+          { name: "eventMode", disName: "\u6570\u636E\u66F4\u65B0\u6A21\u5F0F", type: "string", required: false, defaultValue: "change", remark: "\u53EF\u9009\uFF1A change | blur" }
         ],
         value: "",
         img: `${imgBaseUrl}input.png`,
@@ -3571,12 +3573,12 @@ const data$x = {
     }
   ],
   "git": {
-    "updatedTime": 1657883616e3,
+    "updatedTime": 1660650492e3,
     "contributors": [
       {
         "name": "lfourg",
         "email": "limengnew@163.com",
-        "commits": 6
+        "commits": 7
       }
     ]
   },
@@ -3608,12 +3610,12 @@ const data$w = {
     }
   ],
   "git": {
-    "updatedTime": 1659079943e3,
+    "updatedTime": 1660650492e3,
     "contributors": [
       {
         "name": "lfourg",
         "email": "limengnew@163.com",
-        "commits": 4
+        "commits": 5
       }
     ]
   },
@@ -3713,8 +3715,14 @@ const data$u = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1660650492e3,
+    "contributors": [
+      {
+        "name": "lfourg",
+        "email": "limengnew@163.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "guide/standard.md"
 };
@@ -3938,12 +3946,12 @@ const data$s = {
     }
   ],
   "git": {
-    "updatedTime": 1659079943e3,
+    "updatedTime": 1660650492e3,
     "contributors": [
       {
         "name": "lfourg",
         "email": "limengnew@163.com",
-        "commits": 5
+        "commits": 6
       }
     ]
   },
